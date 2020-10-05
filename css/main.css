@@ -97,38 +97,72 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.25em;
   height: 100%;
+  font-weight: 700;
+  color: white;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
   flex-direction: row nowrap;
   align-items: center;
 }
+.intro{
+    width: 95%;
+    Font-family: 'lora',sans-serif;
+    color: white;
+    margin: auto;
+    font-size: 2vw;
+}
+.intro h1{
+    text-transform: capitalize;
+    margin-top: 1em;
+    font-size: 1.6em;
+}
+.intro p{
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 0 2em 0;
+    border-bottom: .5px solid white;
+  
+}
+.wrapper span {
+    font-size: 1em;
+    font-style: italic;
+    color: magenta;
+}
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
   display: flex;
   justify-content: center;
-  height: 300px;
-  width: 30%;
   align-items: center;
+  line-height: 1.5em;
+  font-size: 1em;
+  height: auto;
+  width: 30%;
+  padding: 25px;
+
 }
+.div-2, .div-3 {
+    border-left: 1px solid lightgray;
+}
+.div-3 img {
+    float: left;
+}
+
 
 
 
