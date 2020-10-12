@@ -95,73 +95,112 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-html {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 1em;
-  font-size: 1.25em;
-  height: 100%;
-  font-weight: 700;
-  color: white;
-}
-
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row nowrap;
-  align-items: center;
-}
-.intro{
-    width: 95%;
-    Font-family: 'lora',sans-serif;
-    color: white;
-    margin: auto;
-    font-size: 2vw;
-}
-.intro h1{
-    text-transform: capitalize;
-    margin-top: 1em;
-    font-size: 1.6em;
-}
-.intro p{
-    font-size: 1em;
-    line-height: 1.5em;
-    padding: 0 0 2em 0;
-    border-bottom: .5px solid white;
+   html {
+    background-color: #ff0d7b;
+    height: 100%;
+    width: 100%;
+  }
   
-}
-.wrapper span {
+  body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    padding: 0em 2em;
+    font-size: 1.25em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  h1, h2, h3 {
+      font-weight: 500;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+  }
+  
+  p span {
+    font-family: 'Quicksand', sans-serif;
+    color: yellow;
+  }
+  
+  header, footer {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+  }
+  
+  header h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    padding-left: 15px;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1.35em;
+  }
+  
+  .flex-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
     font-size: 1em;
-    font-style: italic;
-    color: magenta;
+    
+  }
+    #div-1 {
+      width: 30%;
+      align-items: center;
+      padding: 0 15px;
+      margin-bottom: 10px;
+  }
+    #div-2 {
+    width: 30%;
+    border-left: 1px solid gray;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 10px;
 }
+    #div-3 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        border-left: 1px solid gray;
+        padding: 25px 15px;
+        margin-bottom: 10px;
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.5em;
-  font-size: 1em;
-  height: auto;
-  width: 30%;
-  padding: 25px;
+}   
+    #div-3 img {
+        color: yellow;
+        
 
-}
-.div-2, .div-3 {
-    border-left: 1px solid lightgray;
-}
-.div-3 img {
-    float: left;
-}
+    }
+  footer {
+        align-self: left;
+        border-top: 1px solid #fff;
+  }
+  
+  footer i {
+      color: yellow;
+      padding: 50px 20px 20px 15px;
+  }
+
+
+
+
+
 
 
 
